@@ -48,7 +48,7 @@ pip install git+https://github.com/cimt-unia/BBTransformer.git
 | Dataset        | Conditions                              | Atlas              | Preprocessing      | Role               |
 | :------------- | :-------------------------------------- | :----------------- | :----------------- | :----------------- |
 | **ABIDE**      | ASD vs Controls                         | Glasser+Tian (414) | C-PAC              | Foundation Model   |
-| **UK Biobank** | ICD F32, G20, G40, etc. (10 conditions) | Glasser+Tian (414) | Official UKB Pipeline | Transfer Learning  |
+| **UK Bb** | ICD F32, G20, G40, etc. (10 conditions) | Glasser+Tian (414) | Official UKB Pipeline | Transfer Learning  |
 | **ADHD-200**   | ADHD vs Controls                        | Glasser+Tian (414) | Athena (AFNI/FSL)  | External Validation |
 | **UCLA LA5c**  | Schizophrenia, Bipolar, ADHD vs Controls | Glasser+Tian (414) | fMRIPrep v0.4.4    | External Validation |
 
