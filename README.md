@@ -19,6 +19,7 @@ To overcome data scarcity and leverage shared neurobiological principles, we imp
 
 
 <img width="1678" height="933" alt="BBT_Diagram" src="https://github.com/user-attachments/assets/bb3806f3-da25-41a5-bc53-ba364dffd211" />
+
 ***Figure 1.** BBT full diagram. Three parallel streams process the raw 150 × 414 BOLD input: (1) a Global Stream with a 7-layer GQA+RoPE+SwiGLU transformer encoder; (2) a Local Patch Stream producing coarse temporal tokens integrated via cross-attention; and (3) a Confounder Stream encoding age and biological sex as learned embeddings. Temporal attention pooling produces a single diagnostic embedding passed to a final MLP classifier.*
 
 <br>
