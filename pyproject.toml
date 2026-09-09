@@ -1,0 +1,42 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools >= 64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bbtransformer"
+version = "0.1.0"
+description = "Brain Biomarker Transformer for fMRI Classification"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "CIMT, University of Augsburg"}]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Medical Science Apps."
+]
+
+dependencies = [
+    "torch>=2.0",
+    "nilearn",
+    "nibabel",
+    "gt_map @ git+https://github.com/cimt-unia/gt_map.git",
+    "pytorch_optimizer",
+    "optuna>=3.0",
+    "scikit-learn",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "tqdm",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bbtransformer*"]
+
+[tool.setuptools.package-data]
+bbtransformer = ["roi_labels.csv"]

@@ -1,0 +1,11 @@
+torch>=2.0
+pytorch_optimizer
+optuna>=3.0
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+tqdm
+nilearn
+jupyter
