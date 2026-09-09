@@ -2,7 +2,6 @@
 
 <br>
 
-**Author:** *J.Zorraquin* 
 
 **University of Augsburg:** Chair of Informatics for Medical Technologies (CIMT)
 
